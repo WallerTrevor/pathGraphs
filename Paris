@@ -1,0 +1,175 @@
+[00:16:16] Place the following text into your workshop script:
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+/*
+[00:16:16] */ rule("【Map】Paris (nodes)") { event { Ongoing - Global; } /*
+[00:16:16] */ conditions { /*
+[00:16:16] */     Current Map == Map(Paris); /*
+[00:16:16] */ } actions { /*
+[00:16:16] */     global.pfLoadedMap_nodes = Array( /*
+[00:16:16] */Vector(-104.51, 15.00, -100.19), Vector(-88.62, 13.00, -107.27), Vector(-85.63, 13.00, -102.60), Vector(-83.63, 13.00, -96.52), Vector(-80.71, 13.00, -101.28), Vector(-76.32, 15.00, -92.73), Vector(-61.96, 15.00, -90.10), Vector(-57.69, 13.00, -82.68), Vector(-63.38, 13.00, -78.98), Vector(-70.70, 13.00, -71.77), /*
+[00:16:16] */Vector(-86.11, 12.02, -64.10), Vector(-78.66, 9.86, -48.68), Vector(-71.99, 9.91, -50.48), Vector(-61.82, 10.84, -60.76), Vector(-65.19, 11.00, -66.70), Vector(-58.59, 11.00, -70.40), Vector(-55.54, 10.85, -63.63), Vector(-46.74, 8.76, -55.61), Vector(-50.08, 11.03, -66.08), Vector(-48.83, 11.03, -62.60), /*
+[00:16:16] */Vector(-54.55, 8.91, -54.91), Vector(-59.31, 9.61, -51.41), Vector(-49.98, 9.21, -46.62), Vector(-61.81, 9.95, -37.39), Vector(-67.82, 9.86, -39.63), Vector(-70.90, 9.86, -32.82), Vector(-66.03, 11.86, -26.01), Vector(-67.23, 11.99, -15.90), Vector(-54.54, 11.95, -16.83), Vector(-58.26, 11.88, -12.19), /*
+[00:16:16] */Vector(-59.41, 11.96, -23.25), Vector(-64.51, 11.85, -22.92), Vector(-44.73, 9.92, 2.08), Vector(-34.47, 13.99, -7.01), Vector(-37.49, 13.99, -10.39), Vector(-42.01, 13.99, -5.56), Vector(-47.98, 13.99, -11.63), Vector(-62.06, 13.99, 1.56), Vector(-65.87, 13.99, 6.14), Vector(-71.87, 13.99, -0.87), /*
+[00:16:16] */Vector(-67.95, 13.99, -3.85), Vector(-76.63, 12.00, -12.22), Vector(-77.14, 12.05, -5.30), Vector(-83.24, 11.97, -17.16), Vector(-86.91, 9.66, -25.31), Vector(-76.19, 9.86, -34.30), Vector(-83.38, 9.86, -40.48), Vector(-88.80, 10.91, -46.73), Vector(-98.06, 10.78, -38.59), Vector(-103.35, 10.76, -37.81), /*
+[00:16:16] */Vector(-108.66, 10.82, -35.55), Vector(-113.24, 11.01, -33.36), Vector(-119.72, 10.00, -44.70), Vector(-114.07, 10.71, -43.85), Vector(-108.35, 12.00, -48.56), Vector(-102.16, 12.00, -51.19), Vector(-97.97, 12.00, -53.01), Vector(-99.74, 12.00, -57.57), Vector(-106.25, 10.00, -60.07), Vector(-113.12, 10.00, -53.60), /*
+[00:16:16] */Vector(-110.16, 10.00, -68.22), Vector(-112.84, 10.00, -73.58), Vector(-116.33, 10.00, -72.77), Vector(-121.13, 13.00, -83.29), Vector(-116.20, 13.00, -85.99), Vector(-113.12, 13.00, -81.19), Vector(-105.86, 12.08, -84.15), Vector(-108.81, 12.00, -89.06), Vector(-118.44, 13.00, -92.93), Vector(-116.05, 10.00, -61.76), /*
+[00:16:16] */Vector(-123.18, 9.82, -58.08), Vector(-126.91, 10.00, -63.76), Vector(-49.36, 11.99, -22.51), Vector(-48.96, 11.99, -28.36), Vector(-53.58, 11.99, -32.04), Vector(-48.16, 11.06, -37.48), Vector(-44.37, 11.06, -33.23), Vector(-32.37, 9.92, -20.62), Vector(-27.03, 9.92, -25.69), Vector(-17.06, 10.00, -16.36), /*
+[00:16:16] */Vector(-20.90, 10.02, -11.72), Vector(-21.05, 10.02, -3.75), Vector(-27.27, 12.99, 2.40), Vector(-24.72, 12.99, 5.70), Vector(-28.85, 12.99, 9.68), Vector(-23.62, 14.99, 15.46), Vector(-33.45, 14.99, 24.86), Vector(-38.14, 15.96, 20.80), Vector(-46.04, 15.99, 27.06), Vector(-48.84, 16.00, 23.69), /*
+[00:16:16] */Vector(-48.61, 15.99, 31.99), Vector(-41.74, 13.99, 38.39), Vector(-35.08, 11.99, 31.45), Vector(-50.12, 11.99, 22.88), Vector(-53.73, 12.02, 13.81), Vector(-31.26, 10.04, -30.48), Vector(-26.65, 9.92, -34.88), Vector(-21.80, 10.02, -36.19), Vector(-15.19, 10.32, -28.62), Vector(-20.49, 10.04, -26.56), /*
+[00:16:16] */Vector(-24.60, 9.92, -28.32), Vector(-25.89, 9.92, -41.91), Vector(-16.62, 9.92, -51.79), Vector(-21.22, 10.02, -57.29), Vector(-17.11, 10.00, -61.13), Vector(-8.23, 14.00, -69.72), Vector(-3.86, 14.00, -64.55), Vector(-11.43, 16.00, -57.32), Vector(-15.31, 16.00, -58.12), Vector(-14.31, 10.00, -58.91), /*
+[00:16:16] */Vector(-8.50, 10.00, -64.13), Vector(-2.35, 9.92, -57.91), Vector(5.40, 9.92, -66.11), Vector(-3.22, 10.02, -70.03), Vector(-5.34, 9.92, -53.93), Vector(-0.63, 10.00, -49.80), Vector(10.57, 9.92, -60.99), Vector(14.08, 9.92, -53.92), Vector(4.96, 9.92, -44.38), Vector(0.48, 11.40, -31.27), /*
+[00:16:16] */Vector(-9.72, 14.00, -40.42), Vector(-13.41, 14.00, -36.88), Vector(-8.33, 11.33, -27.15), Vector(-27.95, 9.92, -13.61), Vector(-29.79, 9.92, -2.59), Vector(-22.22, 10.02, -6.86), Vector(-37.41, 9.92, 4.81), Vector(-34.57, 10.02, 15.49), Vector(-93.10, 12.00, -77.46), Vector(-99.39, 12.10, -74.09), /*
+[00:16:16] */Vector(-102.11, 12.00, -79.44), Vector(-97.19, 12.00, -87.34), Vector(-91.06, 12.10, -90.94), Vector(-91.48, 12.00, -98.04), Vector(-87.53, 12.08, -82.72), Vector(-100.82, 15.00, -93.16), Vector(-97.09, 15.00, -94.70), Vector(-104.43, 15.00, -91.05), Vector(-79.80, 15.00, -88.36), Vector(-74.23, 15.00, -85.79)/*
+[00:16:16] */ ); /*
+[00:16:16] */ } } /*
+[00:16:16] */ rule("【Map】Paris (neighbors)") { event { Ongoing - Global; } /*
+[00:16:16] */ conditions { /*
+[00:16:16] */     Current Map == Map(Paris); /*
+[00:16:16] */ } actions { /*
+[00:16:16] */     global.pfLoadedMap_neighbors = Array( /*
+[00:16:16] */ Array(Array(1, Empty Array),Array(68, Empty Array),Array(135, Empty Array)), /*
+[00:16:16] */ Array(Array(0, Empty Array),Array(2, Empty Array)), /*
+[00:16:16] */ Array(Array(1, Empty Array),Array(3, Empty Array),Array(4, Empty Array),Array(133, Empty Array)), /*
+[00:16:16] */ Array(Array(2, Empty Array),Array(132, Empty Array)), /*
+[00:16:16] */ Array(Array(2, Empty Array),Array(5, Empty Array)), /*
+[00:16:16] */ Array(Array(4, Empty Array),Array(6, Empty Array),Array(138, Empty Array)), /*
+[00:16:16] */ Array(Array(5, Empty Array),Array(7, Empty Array),Array(139, Empty Array)), /*
+[00:16:16] */ Array(Array(6, Empty Array),Array(8, Empty Array)), /*
+[00:16:16] */ Array(Array(7, Empty Array),Array(9, Empty Array)), /*
+[00:16:16] */ Array(Array(8, Empty Array),Array(10, Empty Array)), /*
+[00:16:17] */ Array(Array(9, Empty Array),Array(11, Empty Array),Array(57, Empty Array),Array(128, Empty Array)), /*
+[00:16:17] */ Array(Array(10, Empty Array),Array(12, Empty Array),Array(46, Empty Array)), /*
+[00:16:17] */ Array(Array(11, Empty Array),Array(13, Empty Array),Array(24, Empty Array)), /*
+[00:16:17] */ Array(Array(12, Empty Array),Array(14, Empty Array),Array(16, Empty Array)), /*
+[00:16:17] */ Array(Array(13, Empty Array),Array(15, Empty Array)), /*
+[00:16:17] */ Array(Array(14, Empty Array),Array(16, Empty Array)), /*
+[00:16:17] */ Array(Array(15, Empty Array),Array(13, Empty Array),Array(17, Empty Array),Array(18, Empty Array),Array(20, Empty Array)), /*
+[00:16:17] */ Array(Array(16, Empty Array),Array(22, Empty Array)), /*
+[00:16:17] */ Array(Array(16, Empty Array),Array(19, Empty Array)), /*
+[00:16:17] */ Array(Array(18, Empty Array)), /*
+[00:16:17] */ Array(Array(16, Empty Array),Array(21, Empty Array)), /*
+[00:16:17] */ Array(Array(20, Empty Array),Array(22, Empty Array)), /*
+[00:16:17] */ Array(Array(21, Empty Array),Array(17, Empty Array),Array(23, Empty Array)), /*
+[00:16:18] */ Array(Array(22, Empty Array),Array(24, Empty Array)), /*
+[00:16:18] */ Array(Array(23, Empty Array),Array(12, Empty Array),Array(25, Empty Array)), /*
+[00:16:18] */ Array(Array(24, Empty Array),Array(26, Empty Array),Array(45, Empty Array)), /*
+[00:16:18] */ Array(Array(25, Empty Array),Array(27, Empty Array),Array(31, Empty Array)), /*
+[00:16:18] */ Array(Array(26, Empty Array),Array(29, Empty Array),Array(28, Empty Array),Array(41, Empty Array)), /*
+[00:16:18] */ Array(Array(29, Empty Array),Array(30, Empty Array),Array(27, Empty Array),Array(72, Empty Array)), /*
+[00:16:18] */ Array(Array(27, Empty Array),Array(28, Empty Array),Array(32, Empty Array),Array(40, Empty Array)), /*
+[00:16:18] */ Array(Array(28, Empty Array),Array(31, Empty Array)), /*
+[00:16:18] */ Array(Array(30, Empty Array),Array(26, Empty Array)), /*
+[00:16:18] */ Array(Array(29, Empty Array),Array(33, Empty Array),Array(94, Empty Array),Array(126, Empty Array)), /*
+[00:16:18] */ Array(Array(32, Empty Array),Array(34, Empty Array)), /*
+[00:16:18] */ Array(Array(33, Empty Array),Array(35, Empty Array),Array(72, Empty Array)), /*
+[00:16:18] */ Array(Array(34, Empty Array),Array(36, Empty Array)), /*
+[00:16:19] */ Array(Array(35, Empty Array),Array(37, Empty Array)), /*
+[00:16:19] */ Array(Array(36, Empty Array),Array(38, Empty Array),Array(94, Empty Array)), /*
+[00:16:19] */ Array(Array(37, Empty Array),Array(39, Empty Array)), /*
+[00:16:19] */ Array(Array(38, Empty Array),Array(40, Empty Array)), /*
+[00:16:19] */ Array(Array(39, Empty Array),Array(29, Empty Array),Array(41, Empty Array)), /*
+[00:16:19] */ Array(Array(40, Empty Array),Array(27, Empty Array),Array(42, Empty Array),Array(43, Empty Array)), /*
+[00:16:19] */ Array(Array(41, Empty Array)), /*
+[00:16:19] */ Array(Array(41, Empty Array),Array(44, Empty Array)), /*
+[00:16:19] */ Array(Array(43, Empty Array),Array(45, Empty Array),Array(48, Empty Array)), /*
+[00:16:19] */ Array(Array(44, Empty Array),Array(25, Empty Array),Array(46, Empty Array)), /*
+[00:16:19] */ Array(Array(45, Empty Array),Array(11, Empty Array),Array(47, Empty Array)), /*
+[00:16:19] */ Array(Array(46, Empty Array),Array(48, Empty Array)), /*
+[00:16:19] */ Array(Array(47, Empty Array),Array(44, Empty Array),Array(49, Empty Array)), /*
+[00:16:19] */ Array(Array(48, Empty Array),Array(50, Empty Array),Array(54, Empty Array)), /*
+[00:16:20] */ Array(Array(49, Empty Array),Array(51, Empty Array),Array(53, Empty Array)), /*
+[00:16:20] */ Array(Array(50, Empty Array),Array(52, Empty Array)), /*
+[00:16:20] */ Array(Array(51, Empty Array),Array(53, Empty Array),Array(70, Empty Array)), /*
+[00:16:20] */ Array(Array(52, Empty Array),Array(50, Empty Array)), /*
+[00:16:20] */ Array(Array(49, Empty Array),Array(55, Empty Array)), /*
+[00:16:20] */ Array(Array(54, Empty Array),Array(56, Empty Array),Array(58, Empty Array)), /*
+[00:16:20] */ Array(Array(55, Empty Array),Array(57, Empty Array)), /*
+[00:16:20] */ Array(Array(56, Empty Array),Array(10, Empty Array)), /*
+[00:16:20] */ Array(Array(55, Empty Array),Array(59, Empty Array),Array(60, Empty Array),Array(69, Empty Array)), /*
+[00:16:20] */ Array(Array(58, Empty Array)), /*
+[00:16:20] */ Array(Array(58, Empty Array),Array(61, Empty Array),Array(129, Empty Array)), /*
+[00:16:20] */ Array(Array(60, Empty Array),Array(62, Empty Array)), /*
+[00:16:20] */ Array(Array(61, Empty Array),Array(63, Empty Array),Array(69, Empty Array)), /*
+[00:16:20] */ Array(Array(62, Empty Array),Array(64, Empty Array),Array(68, Empty Array)), /*
+[00:16:21] */ Array(Array(63, Empty Array),Array(65, Empty Array),Array(67, Empty Array),Array(68, Empty Array)), /*
+[00:16:21] */ Array(Array(64, Empty Array),Array(66, Empty Array)), /*
+[00:16:21] */ Array(Array(65, Empty Array),Array(67, Empty Array),Array(130, Empty Array),Array(131, Empty Array)), /*
+[00:16:21] */ Array(Array(66, Empty Array),Array(64, Empty Array)), /*
+[00:16:21] */ Array(Array(64, Empty Array),Array(0, Empty Array),Array(63, Empty Array)), /*
+[00:16:21] */ Array(Array(62, Empty Array),Array(58, Empty Array),Array(70, Empty Array)), /*
+[00:16:21] */ Array(Array(69, Empty Array),Array(52, Empty Array),Array(71, Empty Array)), /*
+[00:16:21] */ Array(Array(70, Empty Array)), /*
+[00:16:21] */ Array(Array(28, Empty Array),Array(73, Empty Array),Array(34, Empty Array)), /*
+[00:16:21] */ Array(Array(72, Empty Array),Array(74, Empty Array),Array(76, Empty Array)), /*
+[00:16:21] */ Array(Array(73, Empty Array),Array(75, Empty Array)), /*
+[00:16:21] */ Array(Array(74, Empty Array),Array(76, Empty Array)), /*
+[00:16:21] */ Array(Array(75, Empty Array),Array(73, Empty Array),Array(77, Empty Array)), /*
+[00:16:22] */ Array(Array(76, Empty Array),Array(78, Empty Array),Array(123, Empty Array)), /*
+[00:16:22] */ Array(Array(77, Empty Array),Array(79, Empty Array),Array(95, Empty Array),Array(100, Empty Array)), /*
+[00:16:22] */ Array(Array(78, Empty Array),Array(80, Empty Array)), /*
+[00:16:22] */ Array(Array(79, Empty Array),Array(81, Empty Array),Array(123, Empty Array),Array(125, Empty Array)), /*
+[00:16:22] */ Array(Array(80, Empty Array),Array(82, Empty Array),Array(125, Empty Array)), /*
+[00:16:22] */ Array(Array(81, Empty Array),Array(83, Empty Array)), /*
+[00:16:22] */ Array(Array(82, Empty Array),Array(84, Empty Array)), /*
+[00:16:22] */ Array(Array(83, Empty Array),Array(85, Empty Array)), /*
+[00:16:22] */ Array(Array(84, Empty Array),Array(86, Empty Array)), /*
+[00:16:22] */ Array(Array(85, Empty Array),Array(87, Empty Array)), /*
+[00:16:22] */ Array(Array(86, Empty Array),Array(88, Empty Array)), /*
+[00:16:22] */ Array(Array(87, Empty Array),Array(89, Empty Array),Array(90, Empty Array)), /*
+[00:16:22] */ Array(Array(88, Empty Array)), /*
+[00:16:22] */ Array(Array(88, Empty Array),Array(91, Empty Array)), /*
+[00:16:23] */ Array(Array(90, Empty Array),Array(92, Empty Array)), /*
+[00:16:23] */ Array(Array(91, Empty Array),Array(93, Empty Array)), /*
+[00:16:23] */ Array(Array(92, Empty Array),Array(94, Empty Array)), /*
+[00:16:23] */ Array(Array(93, Empty Array),Array(37, Empty Array),Array(32, Empty Array)), /*
+[00:16:23] */ Array(Array(78, Empty Array),Array(96, Empty Array)), /*
+[00:16:23] */ Array(Array(95, Empty Array),Array(97, Empty Array),Array(100, Empty Array),Array(101, Empty Array)), /*
+[00:16:23] */ Array(Array(96, Empty Array),Array(98, Empty Array),Array(101, Empty Array)), /*
+[00:16:23] */ Array(Array(97, Empty Array),Array(99, Empty Array),Array(122, Empty Array)), /*
+[00:16:23] */ Array(Array(98, Empty Array),Array(100, Empty Array)), /*
+[00:16:23] */ Array(Array(99, Empty Array),Array(78, Empty Array),Array(96, Empty Array)), /*
+[00:16:23] */ Array(Array(96, Empty Array),Array(97, Empty Array),Array(102, Empty Array)), /*
+[00:16:23] */ Array(Array(101, Empty Array),Array(103, Empty Array)), /*
+[00:16:23] */ Array(Array(102, Empty Array),Array(104, Empty Array)), /*
+[00:16:23] */ Array(Array(103, Empty Array),Array(105, Empty Array),Array(109, Empty Array)), /*
+[00:16:24] */ Array(Array(104, Empty Array),Array(106, Empty Array)), /*
+[00:16:24] */ Array(Array(105, Empty Array),Array(107, Empty Array)), /*
+[00:16:24] */ Array(Array(106, Empty Array),Array(108, Empty Array)), /*
+[00:16:24] */ Array(Array(107, Empty Array)), /*
+[00:16:24] */ Array(Array(104, Empty Array),Array(110, Empty Array)), /*
+[00:16:24] */ Array(Array(109, Empty Array),Array(111, Empty Array),Array(113, Empty Array)), /*
+[00:16:24] */ Array(Array(110, Empty Array),Array(112, Empty Array),Array(114, Empty Array)), /*
+[00:16:24] */ Array(Array(111, Empty Array),Array(113, Empty Array),Array(116, Empty Array)), /*
+[00:16:24] */ Array(Array(112, Empty Array),Array(110, Empty Array)), /*
+[00:16:24] */ Array(Array(111, Empty Array),Array(115, Empty Array)), /*
+[00:16:24] */ Array(Array(114, Empty Array),Array(116, Empty Array),Array(118, Empty Array)), /*
+[00:16:24] */ Array(Array(115, Empty Array),Array(112, Empty Array),Array(117, Empty Array)), /*
+[00:16:24] */ Array(Array(116, Empty Array),Array(118, Empty Array)), /*
+[00:16:24] */ Array(Array(117, Empty Array),Array(115, Empty Array),Array(119, Empty Array)), /*
+[00:16:25] */ Array(Array(118, Empty Array),Array(120, Empty Array),Array(122, Empty Array)), /*
+[00:16:25] */ Array(Array(119, Empty Array),Array(121, Empty Array)), /*
+[00:16:25] */ Array(Array(120, Empty Array)), /*
+[00:16:25] */ Array(Array(119, Empty Array),Array(98, Empty Array)), /*
+[00:16:25] */ Array(Array(77, Empty Array),Array(80, Empty Array),Array(124, Empty Array)), /*
+[00:16:25] */ Array(Array(123, Empty Array),Array(125, Empty Array),Array(126, Empty Array)), /*
+[00:16:25] */ Array(Array(124, Empty Array),Array(80, Empty Array),Array(81, Empty Array)), /*
+[00:16:25] */ Array(Array(124, Empty Array),Array(127, Empty Array),Array(32, Empty Array)), /*
+[00:16:25] */ Array(Array(126, Empty Array)), /*
+[00:16:25] */ Array(Array(10, Empty Array),Array(129, Empty Array),Array(134, Empty Array)), /*
+[00:16:25] */ Array(Array(128, Empty Array),Array(130, Empty Array),Array(60, Empty Array)), /*
+[00:16:25] */ Array(Array(129, Empty Array),Array(66, Empty Array)), /*
+[00:16:25] */ Array(Array(66, Empty Array),Array(132, Empty Array)), /*
+[00:16:25] */ Array(Array(131, Empty Array),Array(133, Empty Array),Array(3, Empty Array),Array(134, Empty Array)), /*
+[00:16:26] */ Array(Array(132, Empty Array),Array(2, Empty Array)), /*
+[00:16:26] */ Array(Array(132, Empty Array),Array(128, Empty Array)), /*
+[00:16:26] */ Array(Array(0, Empty Array),Array(136, Empty Array),Array(137, Empty Array)), /*
+[00:16:26] */ Array(Array(135, Empty Array)), /*
+[00:16:26] */ Array(Array(135, Empty Array)), /*
+[00:16:26] */ Array(Array(5, Empty Array),Array(139, Empty Array)), /*
+[00:16:26] */ Array(Array(138, Empty Array),Array(6, Empty Array)) /*
+[00:16:26] */ ); /*
+[00:16:26] */ } }
+[00:16:26] 
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+In order to pathfind, you must add the core pathfinding code to your gamemode from the following link:
+https://github.com/ItsDeltin/Pathmap-editor/blob/main/pathfinder/core.ow
