@@ -1,0 +1,263 @@
+global.pfLoadedMap_nodes = Array(Vector(-405.81, 10.07, 170.68), Vector(-406.30, 10.07, 156.84), Vector(-407.06, 10.07, 147.89), Vector(-404.87, 10.07, 179.35), Vector(-397.27, 9.36, 170.64), Vector(-398.50, 9.36, 177.06), Vector(-391.99, 9.36, 168.34), Vector(-386.52, 11.07, 175.55), Vector(-382.68, 12.06, 171.55), Vector(-381.75, 12.06, 169.61), Vector(-371.60, 12.07, 167.47), Vector(-363.46, 12.04, 161.78), Vector(-371.02, 11.83, 151.62), Vector(-391.66, 9.16, 161.06), Vector(-400.03, 9.21, 156.10), Vector(-395.19, 9.36, 146.33), Vector(-380.89, 9.11, 142.11), Vector(-381.70, 9.13, 129.37), Vector(-388.67, 9.22, 137.54), Vector(-377.63, 9.34, 125.20), Vector(-363.85, 10.07, 125.73), Vector(-362.61, 9.34, 118.11), Vector(-372.08, 9.34, 119.82), Vector(-353.05, 8.21, 116.28), Vector(-353.92, 10.50, 131.71), Vector(-350.83, 10.46, 140.00), Vector(-353.77, 10.65, 146.78), Vector(-360.19, 10.46, 140.94), Vector(-369.90, 11.82, 141.83), Vector(-370.17, 12.04, 131.03), Vector(-343.05, 8.29, 155.59), Vector(-338.06, 8.21, 150.44), Vector(-328.58, 8.21, 151.78), Vector(-331.99, 8.81, 144.84), Vector(-324.78, 8.81, 144.89), Vector(-324.49, 8.81, 136.79), Vector(-332.43, 8.81, 136.58), Vector(-341.16, 8.21, 139.15), Vector(-340.15, 8.21, 129.30), Vector(-328.21, 8.21, 129.46), Vector(-328.97, 9.81, 109.78), Vector(-336.15, 9.81, 111.46), Vector(-343.64, 8.21, 117.70), Vector(-321.53, 9.81, 111.15), Vector(-315.34, 8.21, 117.74), Vector(-305.17, 8.21, 116.48), Vector(-315.82, 8.21, 130.05), Vector(-316.22, 8.21, 139.28), Vector(-321.65, 8.15, 153.58), Vector(-313.72, 8.29, 155.93), Vector(-304.34, 10.65, 147.36), Vector(-306.67, 10.65, 141.21), Vector(-303.18, 10.46, 132.32), Vector(-293.72, 10.46, 141.06), Vector(-287.97, 11.82, 139.84), Vector(-287.06, 12.04, 131.15), Vector(-274.69, 9.13, 129.80), Vector(-279.15, 9.34, 124.74), Vector(-293.67, 10.07, 125.57), Vector(-293.68, 9.34, 117.69), Vector(-285.56, 9.34, 119.99), Vector(-286.78, 11.84, 154.72), Vector(-293.86, 12.04, 161.52), Vector(-286.48, 12.07, 166.07), Vector(-289.50, 11.92, 174.01), Vector(-296.62, 12.05, 169.51), Vector(-298.21, 12.05, 164.96), Vector(-304.55, 12.06, 165.31), Vector(-305.71, 11.07, 180.30), Vector(-317.20, 11.07, 180.05), Vector(-329.12, 8.07, 180.70), Vector(-340.01, 11.07, 181.32), Vector(-338.97, 12.07, 166.72), Vector(-334.83, 12.01, 166.83), Vector(-327.30, 11.61, 161.28), Vector(-321.72, 12.01, 167.48), Vector(-327.73, 12.01, 172.04), Vector(-328.43, 14.07, 180.83), Vector(-325.79, 14.07, 185.51), Vector(-330.83, 14.07, 187.36), Vector(-332.66, 14.07, 175.48), Vector(-335.45, 14.07, 175.47), Vector(-324.57, 14.07, 175.96), Vector(-321.51, 14.07, 175.61), Vector(-261.50, 9.16, 163.02), Vector(-269.87, 11.07, 174.45), Vector(-277.71, 12.07, 168.23), Vector(-256.59, 9.36, 171.16), Vector(-250.99, 10.35, 170.35), Vector(-251.45, 10.35, 180.15), Vector(-250.18, 10.35, 156.47), Vector(-259.40, 9.16, 156.74), Vector(-249.84, 10.35, 148.76), Vector(-260.08, 9.36, 146.50), Vector(-275.97, 9.05, 143.41), Vector(-266.09, 9.06, 138.53), Vector(-351.38, 11.07, 180.27), Vector(-351.52, 12.07, 165.29), Vector(-358.98, 12.05, 165.24), Vector(-361.90, 12.01, 171.41), Vector(-367.83, 11.99, 172.49), Vector(-7.31, 15.93, -127.53), Vector(-7.10, 15.93, -143.21), Vector(-6.59, 15.93, -109.10), Vector(18.46, 13.00, -109.11), Vector(16.89, 12.93, -124.50), Vector(20.73, 13.00, -130.37), Vector(20.30, 13.00, -135.10), Vector(17.52, 15.00, -143.10), Vector(39.60, 10.00, -134.92), Vector(52.16, 11.00, -140.80), Vector(63.50, 10.00, -133.56), Vector(66.25, 10.00, -135.81), Vector(84.66, 13.00, -135.30), Vector(83.24, 13.00, -130.78), Vector(72.43, 15.00, -130.03), Vector(72.50, 15.00, -122.74), Vector(67.50, 15.00, -122.55), Vector(86.52, 12.93, -125.47), Vector(108.46, 15.93, -126.29), Vector(108.73, 15.93, -144.73), Vector(85.86, 15.00, -142.60), Vector(108.20, 15.93, -110.42), Vector(86.57, 13.00, -108.50), Vector(85.84, 12.94, -116.27), Vector(64.84, 9.93, -116.59), Vector(63.70, 10.00, -127.38), Vector(51.95, 10.53, -127.92), Vector(40.86, 10.00, -127.48), Vector(41.00, 9.95, -116.56), Vector(48.22, 10.00, -120.91), Vector(54.98, 10.00, -120.88), Vector(51.93, 10.00, -121.43), Vector(52.07, 10.00, -112.74), Vector(51.86, 11.93, -102.44), Vector(59.30, 11.93, -99.56), Vector(63.60, 11.93, -93.79), Vector(64.28, 11.93, -87.25), Vector(40.69, 11.93, -97.56), Vector(39.83, 11.93, -87.23), Vector(35.90, 11.93, -86.37), Vector(45.61, 10.03, -111.33), Vector(46.74, 6.00, -92.95), Vector(31.91, 8.00, -90.87), Vector(31.53, 8.00, -87.14), Vector(39.50, 8.00, -86.08), Vector(31.71, 8.00, -80.84), Vector(22.79, 8.00, -81.16), Vector(22.59, 8.00, -86.01), Vector(26.28, 8.00, -86.37), Vector(26.91, 10.00, -94.71), Vector(20.02, 10.00, -94.59), Vector(19.82, 8.00, -84.99), Vector(19.88, 13.00, -106.73), Vector(17.94, 12.94, -115.80), Vector(59.69, 10.00, -113.20), Vector(58.89, 10.00, -119.66), Vector(58.57, 6.00, -93.24), Vector(73.12, 8.00, -91.51), Vector(72.57, 8.00, -86.75), Vector(64.56, 8.00, -86.10), Vector(72.70, 8.00, -81.14), Vector(60.50, 4.87, -81.23), Vector(45.47, 4.87, -79.51), Vector(52.50, 4.87, -75.22), Vector(81.21, 8.00, -81.69), Vector(80.80, 8.00, -86.14), Vector(76.64, 8.00, -86.50), Vector(77.00, 10.00, -95.08), Vector(85.98, 10.00, -94.55), Vector(85.11, 8.00, -84.31), Vector(272.78, 10.10, 211.64), Vector(270.23, 10.10, 215.86), Vector(264.12, 10.10, 215.90), Vector(268.56, 10.10, 210.10), Vector(251.32, 5.04, 221.37), Vector(249.66, 5.04, 225.00), Vector(243.60, 5.09, 224.36), Vector(247.22, 5.04, 219.84), Vector(231.64, 10.09, 229.69), Vector(233.59, 10.09, 236.74), Vector(244.00, 13.09, 234.36), Vector(246.67, 13.09, 240.79), Vector(225.64, 16.09, 249.77), Vector(205.23, 13.09, 258.72), Vector(193.80, 11.09, 263.94), Vector(191.39, 11.09, 255.16), Vector(180.10, 10.09, 261.17), Vector(177.02, 10.09, 268.96), Vector(172.95, 10.09, 271.28), Vector(169.46, 10.10, 262.87), Vector(171.79, 10.10, 258.80), Vector(165.72, 10.10, 258.25), Vector(168.39, 10.10, 253.53), Vector(174.62, 10.10, 254.00), Vector(187.51, 5.04, 248.69), Vector(189.38, 5.04, 244.60), Vector(195.29, 5.04, 245.41), Vector(191.28, 5.04, 250.17), Vector(208.43, 10.09, 239.77), Vector(220.20, 9.09, 236.72), Vector(224.33, 9.15, 247.58), Vector(234.27, 10.09, 242.74), Vector(215.77, 10.09, 250.65), Vector(211.61, 10.09, 247.80), Vector(226.99, 9.09, 252.17), Vector(237.15, 9.09, 249.62), Vector(238.82, 9.09, 253.64), Vector(250.40, 11.09, 248.82), Vector(202.33, 13.09, 252.10), Vector(194.99, 16.09, 234.52), Vector(211.25, 17.10, 228.03), Vector(217.71, 17.09, 227.94), Vector(219.67, 17.10, 224.94), Vector(214.07, 17.12, 220.54), Vector(216.09, 17.14, 214.49), Vector(213.25, 17.10, 207.49), Vector(228.07, 16.09, 203.45), Vector(230.02, 16.09, 208.69), Vector(235.49, 16.09, 217.26), Vector(243.57, 13.09, 203.53), Vector(251.84, 12.09, 221.12), Vector(255.11, 11.09, 230.27), Vector(255.78, 11.09, 236.35), Vector(263.61, 10.09, 224.09), Vector(274.47, 10.09, 227.10), Vector(277.87, 10.09, 225.62), Vector(255.36, 13.09, 203.30), Vector(258.00, 13.09, 196.54), Vector(250.29, 13.09, 193.89), Vector(248.72, 13.09, 199.73), Vector(203.37, 17.10, 210.86), Vector(191.25, 16.09, 219.47), Vector(193.22, 16.09, 224.59), Vector(180.67, 13.09, 230.17), Vector(188.15, 12.09, 248.16), Vector(174.67, 13.09, 232.46), Vector(168.02, 13.09, 230.03), Vector(165.79, 13.09, 237.13), Vector(171.97, 13.09, 239.16), Vector(225.02, 10.09, 226.90), Vector(222.72, 10.09, 222.50), Vector(215.76, 9.10, 225.51), Vector(208.04, 9.10, 218.94), Vector(210.77, 9.10, 210.15), Vector(217.18, 9.10, 213.67), Vector(212.12, 9.48, 217.35), Vector(208.98, 10.09, 228.60), Vector(210.46, 10.09, 233.18), Vector(218.00, 10.10, 230.50), Vector(219.11, 9.09, 258.05), Vector(220.68, 9.09, 261.42), Vector(208.48, 11.09, 266.14));
+
+global.pfLoadedMap_neighbors = Array(
+ /*
+[00:10:15] */ Array(Array(1, Empty Array),Array(3, Empty Array),Array(4, Empty Array)), /*
+[00:10:16] */ Array(Array(0, Empty Array),Array(2, Empty Array),Array(14, Empty Array)), /*
+[00:10:17] */ Array(Array(1, Empty Array)), /*
+[00:10:17] */ Array(Array(0, Empty Array)), /*
+[00:10:19] */ Array(Array(0, Empty Array),Array(5, Empty Array),Array(6, Empty Array),Array(13, Empty Array)), /*
+[00:10:19] */ Array(Array(4, Empty Array)), /*
+[00:10:20] */ Array(Array(4, Empty Array),Array(7, Empty Array),Array(13, Empty Array)), /*
+[00:10:21] */ Array(Array(6, Empty Array),Array(8, Empty Array)), /*
+[00:10:22] */ Array(Array(7, Empty Array),Array(9, Empty Array)), /*
+[00:10:23] */ Array(Array(8, Empty Array),Array(10, Empty Array)), /*
+[00:10:24] */ Array(Array(9, Empty Array),Array(11, Empty Array),Array(100, Empty Array)), /*
+[00:10:25] */ Array(Array(10, Empty Array),Array(12, Empty Array),Array(98, Empty Array)), /*
+[00:10:26] */ Array(Array(11, Empty Array),Array(13, Empty Array),Array(28, Empty Array)), /*
+[00:10:27] */ Array(Array(12, Empty Array),Array(6, Empty Array),Array(4, Empty Array),Array(14, Empty Array)), /*
+[00:10:28] */ Array(Array(13, Empty Array),Array(1, Empty Array),Array(15, Empty Array)), /*
+[00:10:29] */ Array(Array(14, Empty Array),Array(16, Empty Array),Array(18, Empty Array)), /*
+[00:10:30] */ Array(Array(15, Empty Array),Array(17, Empty Array)), /*
+[00:10:31] */ Array(Array(16, Empty Array),Array(18, Empty Array),Array(19, Empty Array),Array(29, Empty Array)), /*
+[00:10:32] */ Array(Array(17, Empty Array),Array(15, Empty Array)), /*
+[00:10:33] */ Array(Array(17, Empty Array),Array(20, Empty Array),Array(22, Empty Array)), /*
+[00:10:34] */ Array(Array(19, Empty Array),Array(21, Empty Array)), /*
+[00:10:35] */ Array(Array(20, Empty Array),Array(22, Empty Array),Array(23, Empty Array)), /*
+[00:10:36] */ Array(Array(21, Empty Array),Array(19, Empty Array)), /*
+[00:10:37] */ Array(Array(21, Empty Array),Array(24, Empty Array),Array(42, Empty Array)), /*
+[00:10:38] */ Array(Array(23, Empty Array),Array(25, Empty Array),Array(27, Empty Array)), /*
+[00:10:39] */ Array(Array(24, Empty Array),Array(26, Empty Array)), /*
+[00:10:40] */ Array(Array(25, Empty Array),Array(27, Empty Array),Array(30, Empty Array)), /*
+[00:10:41] */ Array(Array(26, Empty Array),Array(24, Empty Array),Array(28, Empty Array)), /*
+[00:10:42] */ Array(Array(27, Empty Array),Array(29, Empty Array),Array(12, Empty Array)), /*
+[00:10:43] */ Array(Array(28, Empty Array),Array(17, Empty Array)), /*
+[00:10:44] */ Array(Array(26, Empty Array),Array(31, Empty Array)), /*
+[00:10:45] */ Array(Array(30, Empty Array),Array(32, Empty Array),Array(37, Empty Array)), /*
+[00:10:46] */ Array(Array(31, Empty Array),Array(33, Empty Array),Array(48, Empty Array),Array(74, Empty Array),Array(34, Empty Array)), /*
+[00:10:47] */ Array(Array(32, Empty Array),Array(34, Empty Array),Array(36, Empty Array),Array(37, Empty Array),Array(48, Empty Array)), /*
+[00:10:49] */ Array(Array(33, Empty Array),Array(35, Empty Array),Array(47, Empty Array),Array(48, Empty Array),Array(32, Empty Array)), /*
+[00:10:50] */ Array(Array(34, Empty Array),Array(36, Empty Array),Array(39, Empty Array),Array(47, Empty Array)), /*
+[00:10:51] */ Array(Array(35, Empty Array),Array(33, Empty Array),Array(39, Empty Array),Array(37, Empty Array)), /*
+[00:10:52] */ Array(Array(33, Empty Array),Array(31, Empty Array),Array(38, Empty Array),Array(36, Empty Array)), /*
+[00:10:53] */ Array(Array(37, Empty Array),Array(39, Empty Array),Array(42, Empty Array)), /*
+[00:10:55] */ Array(Array(38, Empty Array),Array(36, Empty Array),Array(35, Empty Array),Array(40, Empty Array),Array(46, Empty Array)), /*
+[00:10:56] */ Array(Array(39, Empty Array),Array(41, Empty Array),Array(43, Empty Array)), /*
+[00:10:57] */ Array(Array(40, Empty Array),Array(42, Empty Array)), /*
+[00:10:58] */ Array(Array(41, Empty Array),Array(38, Empty Array),Array(23, Empty Array)), /*
+[00:10:58] */ Array(Array(40, Empty Array),Array(44, Empty Array)), /*
+[00:10:59] */ Array(Array(43, Empty Array),Array(45, Empty Array),Array(46, Empty Array)), /*
+[00:11:00] */ Array(Array(44, Empty Array),Array(59, Empty Array),Array(52, Empty Array)), /*
+[00:11:01] */ Array(Array(44, Empty Array),Array(39, Empty Array),Array(47, Empty Array)), /*
+[00:11:03] */ Array(Array(46, Empty Array),Array(35, Empty Array),Array(34, Empty Array),Array(48, Empty Array)), /*
+[00:11:04] */ Array(Array(47, Empty Array),Array(32, Empty Array),Array(33, Empty Array),Array(34, Empty Array),Array(49, Empty Array)), /*
+[00:11:05] */ Array(Array(48, Empty Array),Array(50, Empty Array)), /*
+[00:11:06] */ Array(Array(49, Empty Array),Array(51, Empty Array),Array(53, Empty Array)), /*
+[00:11:07] */ Array(Array(50, Empty Array),Array(52, Empty Array)), /*
+[00:11:08] */ Array(Array(51, Empty Array),Array(53, Empty Array),Array(45, Empty Array)), /*
+[00:11:09] */ Array(Array(52, Empty Array),Array(50, Empty Array),Array(54, Empty Array)), /*
+[00:11:10] */ Array(Array(53, Empty Array),Array(55, Empty Array),Array(61, Empty Array)), /*
+[00:11:11] */ Array(Array(54, Empty Array),Array(56, Empty Array)), /*
+[00:11:12] */ Array(Array(55, Empty Array),Array(57, Empty Array),Array(94, Empty Array),Array(95, Empty Array)), /*
+[00:11:13] */ Array(Array(56, Empty Array),Array(58, Empty Array),Array(60, Empty Array)), /*
+[00:11:14] */ Array(Array(57, Empty Array),Array(59, Empty Array)), /*
+[00:11:15] */ Array(Array(58, Empty Array),Array(45, Empty Array),Array(60, Empty Array)), /*
+[00:11:16] */ Array(Array(59, Empty Array),Array(57, Empty Array)), /*
+[00:11:17] */ Array(Array(54, Empty Array),Array(62, Empty Array),Array(84, Empty Array)), /*
+[00:11:18] */ Array(Array(61, Empty Array),Array(63, Empty Array),Array(66, Empty Array)), /*
+[00:11:19] */ Array(Array(62, Empty Array),Array(64, Empty Array),Array(86, Empty Array)), /*
+[00:11:20] */ Array(Array(63, Empty Array),Array(65, Empty Array)), /*
+[00:11:20] */ Array(Array(64, Empty Array),Array(66, Empty Array)), /*
+[00:11:21] */ Array(Array(65, Empty Array),Array(62, Empty Array),Array(67, Empty Array)), /*
+[00:11:22] */ Array(Array(66, Empty Array),Array(68, Empty Array)), /*
+[00:11:23] */ Array(Array(67, Empty Array),Array(69, Empty Array)), /*
+[00:11:24] */ Array(Array(68, Empty Array),Array(70, Empty Array)), /*
+[00:11:25] */ Array(Array(69, Empty Array),Array(71, Empty Array)), /*
+[00:11:26] */ Array(Array(70, Empty Array),Array(72, Empty Array),Array(96, Empty Array)), /*
+[00:11:27] */ Array(Array(71, Empty Array),Array(73, Empty Array),Array(97, Empty Array)), /*
+[00:11:28] */ Array(Array(72, Empty Array),Array(74, Empty Array),Array(76, Empty Array)), /*
+[00:11:29] */ Array(Array(73, Empty Array),Array(75, Empty Array),Array(32, Empty Array)), /*
+[00:11:30] */ Array(Array(74, Empty Array),Array(76, Empty Array)), /*
+[00:11:31] */ Array(Array(75, Empty Array),Array(73, Empty Array),Array(77, Empty Array)), /*
+[00:11:32] */ Array(Array(76, Empty Array),Array(78, Empty Array),Array(79, Empty Array),Array(80, Empty Array),Array(82, Empty Array)), /*
+[00:11:33] */ Array(Array(77, Empty Array),Array(79, Empty Array)), /*
+[00:11:34] */ Array(Array(78, Empty Array),Array(77, Empty Array)), /*
+[00:11:35] */ Array(Array(77, Empty Array),Array(81, Empty Array)), /*
+[00:11:36] */ Array(Array(80, Empty Array)), /*
+[00:11:36] */ Array(Array(77, Empty Array),Array(83, Empty Array)), /*
+[00:11:37] */ Array(Array(82, Empty Array)), /*
+[00:11:38] */ Array(Array(61, Empty Array),Array(85, Empty Array),Array(87, Empty Array),Array(91, Empty Array)), /*
+[00:11:39] */ Array(Array(84, Empty Array),Array(86, Empty Array)), /*
+[00:11:40] */ Array(Array(85, Empty Array),Array(63, Empty Array)), /*
+[00:11:41] */ Array(Array(84, Empty Array),Array(88, Empty Array)), /*
+[00:11:42] */ Array(Array(87, Empty Array),Array(89, Empty Array),Array(90, Empty Array)), /*
+[00:11:43] */ Array(Array(88, Empty Array)), /*
+[00:11:44] */ Array(Array(88, Empty Array),Array(91, Empty Array),Array(92, Empty Array)), /*
+[00:11:45] */ Array(Array(90, Empty Array),Array(84, Empty Array),Array(93, Empty Array)), /*
+[00:11:45] */ Array(Array(90, Empty Array)), /*
+[00:11:46] */ Array(Array(91, Empty Array),Array(94, Empty Array),Array(95, Empty Array)), /*
+[00:11:47] */ Array(Array(93, Empty Array),Array(56, Empty Array)), /*
+[00:11:48] */ Array(Array(56, Empty Array),Array(93, Empty Array)), /*
+[00:11:49] */ Array(Array(71, Empty Array),Array(97, Empty Array)), /*
+[00:11:50] */ Array(Array(96, Empty Array),Array(98, Empty Array),Array(72, Empty Array)), /*
+[00:11:51] */ Array(Array(97, Empty Array),Array(11, Empty Array),Array(99, Empty Array)), /*
+[00:11:52] */ Array(Array(98, Empty Array),Array(100, Empty Array)), /*
+[00:11:53] */ Array(Array(99, Empty Array),Array(10, Empty Array)) /*
+[00:11:53] */ ,
+ /*
+[00:12:19] */ Array(Array(102, Empty Array),Array(103, Empty Array),Array(105, Empty Array)), /*
+[00:12:20] */ Array(Array(101, Empty Array),Array(108, Empty Array)), /*
+[00:12:21] */ Array(Array(101, Empty Array),Array(104, Empty Array)), /*
+[00:12:22] */ Array(Array(103, Empty Array),Array(153, Empty Array),Array(154, Empty Array)), /*
+[00:12:23] */ Array(Array(101, Empty Array),Array(106, Empty Array),Array(154, Empty Array)), /*
+[00:12:24] */ Array(Array(105, Empty Array),Array(107, Empty Array)), /*
+[00:12:25] */ Array(Array(106, Empty Array),Array(109, Empty Array)), /*
+[00:12:26] */ Array(Array(102, Empty Array)), /*
+[00:12:27] */ Array(Array(107, Empty Array),Array(110, Empty Array),Array(128, Empty Array)), /*
+[00:12:28] */ Array(Array(109, Empty Array),Array(111, Empty Array),Array(127, Empty Array)), /*
+[00:12:29] */ Array(Array(110, Empty Array),Array(112, Empty Array),Array(126, Empty Array)), /*
+[00:12:30] */ Array(Array(111, Empty Array),Array(113, Empty Array)), /*
+[00:12:30] */ Array(Array(112, Empty Array),Array(114, Empty Array)), /*
+[00:12:31] */ Array(Array(113, Empty Array),Array(115, Empty Array),Array(118, Empty Array)), /*
+[00:12:32] */ Array(Array(114, Empty Array),Array(116, Empty Array)), /*
+[00:12:33] */ Array(Array(115, Empty Array),Array(117, Empty Array)), /*
+[00:12:34] */ Array(Array(116, Empty Array)), /*
+[00:12:35] */ Array(Array(114, Empty Array),Array(119, Empty Array),Array(124, Empty Array)), /*
+[00:12:36] */ Array(Array(118, Empty Array),Array(120, Empty Array),Array(122, Empty Array)), /*
+[00:12:37] */ Array(Array(119, Empty Array),Array(121, Empty Array)), /*
+[00:12:37] */ Array(Array(120, Empty Array)), /*
+[00:12:38] */ Array(Array(119, Empty Array),Array(123, Empty Array)), /*
+[00:12:39] */ Array(Array(122, Empty Array),Array(124, Empty Array),Array(169, Empty Array)), /*
+[00:12:40] */ Array(Array(123, Empty Array),Array(118, Empty Array),Array(125, Empty Array)), /*
+[00:12:41] */ Array(Array(124, Empty Array),Array(126, Empty Array),Array(155, Empty Array)), /*
+[00:12:42] */ Array(Array(125, Empty Array),Array(111, Empty Array),Array(127, Empty Array)), /*
+[00:12:44] */ Array(Array(126, Empty Array),Array(110, Empty Array),Array(128, Empty Array),Array(131, Empty Array),Array(130, Empty Array),Array(132, Empty Array)), /*
+[00:12:45] */ Array(Array(127, Empty Array),Array(109, Empty Array),Array(129, Empty Array)), /*
+[00:12:46] */ Array(Array(128, Empty Array),Array(130, Empty Array),Array(141, Empty Array),Array(154, Empty Array)), /*
+[00:12:47] */ Array(Array(129, Empty Array),Array(127, Empty Array),Array(132, Empty Array)), /*
+[00:12:48] */ Array(Array(127, Empty Array),Array(132, Empty Array),Array(156, Empty Array)), /*
+[00:12:49] */ Array(Array(131, Empty Array),Array(130, Empty Array),Array(127, Empty Array),Array(133, Empty Array)), /*
+[00:12:51] */ Array(Array(132, Empty Array),Array(134, Empty Array),Array(141, Empty Array),Array(155, Empty Array)), /*
+[00:12:52] */ Array(Array(133, Empty Array),Array(135, Empty Array),Array(138, Empty Array)), /*
+[00:12:52] */ Array(Array(134, Empty Array),Array(136, Empty Array)), /*
+[00:12:53] */ Array(Array(135, Empty Array),Array(137, Empty Array)), /*
+[00:12:54] */ Array(Array(136, Empty Array)), /*
+[00:12:55] */ Array(Array(134, Empty Array),Array(139, Empty Array)), /*
+[00:12:56] */ Array(Array(138, Empty Array),Array(140, Empty Array)), /*
+[00:12:56] */ Array(Array(139, Empty Array)), /*
+[00:12:57] */ Array(Array(133, Empty Array),Array(129, Empty Array),Array(142, Empty Array)), /*
+[00:12:59] */ Array(Array(141, Empty Array),Array(143, Empty Array),Array(157, Empty Array),Array(163, Empty Array)), /*
+[00:12:59] */ Array(Array(142, Empty Array),Array(144, Empty Array)), /*
+[00:13:01] */ Array(Array(143, Empty Array),Array(145, Empty Array),Array(146, Empty Array)), /*
+[00:13:01] */ Array(Array(144, Empty Array)), /*
+[00:13:02] */ Array(Array(144, Empty Array),Array(147, Empty Array),Array(163, Empty Array)), /*
+[00:13:03] */ Array(Array(146, Empty Array),Array(148, Empty Array),Array(152, Empty Array)), /*
+[00:13:04] */ Array(Array(147, Empty Array),Array(149, Empty Array),Array(152, Empty Array)), /*
+[00:13:05] */ Array(Array(148, Empty Array),Array(150, Empty Array)), /*
+[00:13:06] */ Array(Array(149, Empty Array),Array(151, Empty Array)), /*
+[00:13:07] */ Array(Array(150, Empty Array),Array(152, Empty Array),Array(153, Empty Array)), /*
+[00:13:08] */ Array(Array(151, Empty Array),Array(148, Empty Array),Array(147, Empty Array)), /*
+[00:13:09] */ Array(Array(151, Empty Array),Array(104, Empty Array)), /*
+[00:13:10] */ Array(Array(104, Empty Array),Array(105, Empty Array),Array(129, Empty Array)), /*
+[00:13:11] */ Array(Array(125, Empty Array),Array(133, Empty Array),Array(156, Empty Array),Array(157, Empty Array)), /*
+[00:13:12] */ Array(Array(155, Empty Array),Array(131, Empty Array)), /*
+[00:13:13] */ Array(Array(155, Empty Array),Array(158, Empty Array),Array(162, Empty Array),Array(142, Empty Array)), /*
+[00:13:14] */ Array(Array(157, Empty Array),Array(159, Empty Array)), /*
+[00:13:15] */ Array(Array(158, Empty Array),Array(160, Empty Array),Array(161, Empty Array)), /*
+[00:13:16] */ Array(Array(159, Empty Array)), /*
+[00:13:17] */ Array(Array(159, Empty Array),Array(162, Empty Array),Array(165, Empty Array)), /*
+[00:13:18] */ Array(Array(161, Empty Array),Array(157, Empty Array),Array(164, Empty Array)), /*
+[00:13:19] */ Array(Array(142, Empty Array),Array(146, Empty Array),Array(164, Empty Array)), /*
+[00:13:20] */ Array(Array(163, Empty Array),Array(162, Empty Array)), /*
+[00:13:21] */ Array(Array(161, Empty Array),Array(166, Empty Array),Array(170, Empty Array)), /*
+[00:13:22] */ Array(Array(165, Empty Array),Array(167, Empty Array),Array(170, Empty Array)), /*
+[00:13:23] */ Array(Array(166, Empty Array),Array(168, Empty Array)), /*
+[00:13:23] */ Array(Array(167, Empty Array),Array(169, Empty Array)), /*
+[00:13:25] */ Array(Array(168, Empty Array),Array(170, Empty Array),Array(123, Empty Array)), /*
+[00:13:26] */ Array(Array(169, Empty Array),Array(166, Empty Array),Array(165, Empty Array)) /*
+[00:13:26] */ ,
+ /*
+[00:07:18] */ Array(Array(172, Empty Array),Array(174, Empty Array),Array(226, Empty Array)), /*
+[00:07:19] */ Array(Array(171, Empty Array),Array(173, Empty Array)), /*
+[00:07:20] */ Array(Array(172, Empty Array),Array(174, Empty Array),Array(175, Empty Array)), /*
+[00:07:21] */ Array(Array(173, Empty Array),Array(171, Empty Array),Array(227, Empty Array)), /*
+[00:07:22] */ Array(Array(173, Empty Array),Array(176, Empty Array),Array(178, Empty Array)), /*
+[00:07:23] */ Array(Array(175, Empty Array),Array(177, Empty Array)), /*
+[00:07:24] */ Array(Array(176, Empty Array),Array(178, Empty Array),Array(179, Empty Array)), /*
+[00:07:25] */ Array(Array(177, Empty Array),Array(175, Empty Array)), /*
+[00:07:26] */ Array(Array(177, Empty Array),Array(180, Empty Array),Array(200, Empty Array),Array(240, Empty Array)), /*
+[00:07:27] */ Array(Array(179, Empty Array),Array(181, Empty Array),Array(202, Empty Array)), /*
+[00:07:28] */ Array(Array(180, Empty Array),Array(182, Empty Array),Array(219, Empty Array)), /*
+[00:07:29] */ Array(Array(181, Empty Array),Array(183, Empty Array),Array(208, Empty Array),Array(223, Empty Array)), /*
+[00:07:30] */ Array(Array(182, Empty Array),Array(184, Empty Array)), /*
+[00:07:31] */ Array(Array(183, Empty Array),Array(185, Empty Array),Array(209, Empty Array),Array(252, Empty Array)), /*
+[00:07:32] */ Array(Array(184, Empty Array),Array(186, Empty Array)), /*
+[00:07:33] */ Array(Array(185, Empty Array),Array(187, Empty Array),Array(235, Empty Array)), /*
+[00:07:34] */ Array(Array(186, Empty Array),Array(188, Empty Array)), /*
+[00:07:35] */ Array(Array(187, Empty Array),Array(189, Empty Array)), /*
+[00:07:35] */ Array(Array(188, Empty Array),Array(190, Empty Array)), /*
+[00:07:36] */ Array(Array(189, Empty Array),Array(191, Empty Array)), /*
+[00:07:37] */ Array(Array(190, Empty Array),Array(192, Empty Array),Array(194, Empty Array)), /*
+[00:07:38] */ Array(Array(191, Empty Array),Array(193, Empty Array)), /*
+[00:07:39] */ Array(Array(192, Empty Array),Array(194, Empty Array),Array(239, Empty Array)), /*
+[00:07:40] */ Array(Array(193, Empty Array),Array(191, Empty Array),Array(195, Empty Array)), /*
+[00:07:41] */ Array(Array(194, Empty Array),Array(196, Empty Array),Array(198, Empty Array)), /*
+[00:07:42] */ Array(Array(195, Empty Array),Array(197, Empty Array)), /*
+[00:07:43] */ Array(Array(196, Empty Array),Array(198, Empty Array),Array(199, Empty Array)), /*
+[00:07:44] */ Array(Array(197, Empty Array),Array(195, Empty Array)), /*
+[00:07:45] */ Array(Array(197, Empty Array),Array(200, Empty Array),Array(204, Empty Array),Array(248, Empty Array)), /*
+[00:07:46] */ Array(Array(199, Empty Array),Array(179, Empty Array),Array(201, Empty Array)), /*
+[00:07:47] */ Array(Array(200, Empty Array),Array(202, Empty Array),Array(203, Empty Array),Array(205, Empty Array)), /*
+[00:07:48] */ Array(Array(201, Empty Array),Array(180, Empty Array),Array(206, Empty Array)), /*
+[00:07:50] */ Array(Array(201, Empty Array),Array(204, Empty Array),Array(250, Empty Array)), /*
+[00:07:51] */ Array(Array(203, Empty Array),Array(199, Empty Array),Array(209, Empty Array)), /*
+[00:07:52] */ Array(Array(201, Empty Array),Array(206, Empty Array),Array(250, Empty Array)), /*
+[00:07:53] */ Array(Array(205, Empty Array),Array(202, Empty Array),Array(207, Empty Array)), /*
+[00:07:53] */ Array(Array(206, Empty Array),Array(208, Empty Array)), /*
+[00:07:54] */ Array(Array(207, Empty Array),Array(182, Empty Array)), /*
+[00:07:55] */ Array(Array(184, Empty Array),Array(204, Empty Array),Array(210, Empty Array)), /*
+[00:07:56] */ Array(Array(209, Empty Array),Array(211, Empty Array),Array(233, Empty Array)), /*
+[00:07:58] */ Array(Array(210, Empty Array),Array(212, Empty Array),Array(214, Empty Array),Array(231, Empty Array)), /*
+[00:07:58] */ Array(Array(211, Empty Array),Array(213, Empty Array)), /*
+[00:07:59] */ Array(Array(212, Empty Array),Array(214, Empty Array),Array(219, Empty Array)), /*
+[00:08:00] */ Array(Array(213, Empty Array),Array(211, Empty Array),Array(215, Empty Array)), /*
+[00:08:01] */ Array(Array(214, Empty Array),Array(216, Empty Array)), /*
+[00:08:02] */ Array(Array(215, Empty Array),Array(217, Empty Array),Array(231, Empty Array)), /*
+[00:08:03] */ Array(Array(216, Empty Array),Array(218, Empty Array)), /*
+[00:08:04] */ Array(Array(217, Empty Array),Array(219, Empty Array),Array(220, Empty Array)), /*
+[00:08:05] */ Array(Array(218, Empty Array),Array(213, Empty Array),Array(181, Empty Array)), /*
+[00:08:06] */ Array(Array(218, Empty Array),Array(221, Empty Array),Array(230, Empty Array)), /*
+[00:08:07] */ Array(Array(220, Empty Array),Array(222, Empty Array)), /*
+[00:08:08] */ Array(Array(221, Empty Array),Array(223, Empty Array),Array(224, Empty Array)), /*
+[00:08:09] */ Array(Array(222, Empty Array),Array(182, Empty Array)), /*
+[00:08:10] */ Array(Array(222, Empty Array),Array(225, Empty Array)), /*
+[00:08:11] */ Array(Array(224, Empty Array),Array(226, Empty Array)), /*
+[00:08:12] */ Array(Array(225, Empty Array),Array(171, Empty Array)), /*
+[00:08:13] */ Array(Array(174, Empty Array),Array(228, Empty Array),Array(230, Empty Array)), /*
+[00:08:14] */ Array(Array(227, Empty Array),Array(229, Empty Array)), /*
+[00:08:14] */ Array(Array(228, Empty Array),Array(230, Empty Array)), /*
+[00:08:15] */ Array(Array(229, Empty Array),Array(227, Empty Array),Array(220, Empty Array)), /*
+[00:08:16] */ Array(Array(216, Empty Array),Array(211, Empty Array),Array(232, Empty Array)), /*
+[00:08:17] */ Array(Array(231, Empty Array),Array(233, Empty Array)), /*
+[00:08:18] */ Array(Array(232, Empty Array),Array(210, Empty Array),Array(234, Empty Array)), /*
+[00:08:19] */ Array(Array(233, Empty Array),Array(235, Empty Array),Array(236, Empty Array)), /*
+[00:08:20] */ Array(Array(234, Empty Array),Array(186, Empty Array)), /*
+[00:08:21] */ Array(Array(234, Empty Array),Array(237, Empty Array),Array(239, Empty Array)), /*
+[00:08:22] */ Array(Array(236, Empty Array),Array(238, Empty Array)), /*
+[00:08:23] */ Array(Array(237, Empty Array),Array(239, Empty Array)), /*
+[00:08:24] */ Array(Array(238, Empty Array),Array(236, Empty Array),Array(193, Empty Array)), /*
+[00:08:25] */ Array(Array(179, Empty Array),Array(241, Empty Array),Array(249, Empty Array)), /*
+[00:08:26] */ Array(Array(240, Empty Array),Array(242, Empty Array)), /*
+[00:08:27] */ Array(Array(241, Empty Array),Array(243, Empty Array),Array(245, Empty Array),Array(246, Empty Array),Array(247, Empty Array)), /*
+[00:08:28] */ Array(Array(242, Empty Array),Array(244, Empty Array)), /*
+[00:08:29] */ Array(Array(243, Empty Array),Array(245, Empty Array)), /*
+[00:08:30] */ Array(Array(244, Empty Array),Array(242, Empty Array)), /*
+[00:08:30] */ Array(Array(242, Empty Array)), /*
+[00:08:31] */ Array(Array(242, Empty Array),Array(248, Empty Array)), /*
+[00:08:32] */ Array(Array(247, Empty Array),Array(249, Empty Array),Array(199, Empty Array)), /*
+[00:08:33] */ Array(Array(248, Empty Array),Array(240, Empty Array)), /*
+[00:08:34] */ Array(Array(203, Empty Array),Array(205, Empty Array),Array(251, Empty Array)), /*
+[00:08:35] */ Array(Array(250, Empty Array),Array(252, Empty Array)), /*
+[00:08:36] */ Array(Array(251, Empty Array),Array(184, Empty Array)) /*
+[00:08:36] */ 
+);
